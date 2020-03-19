@@ -1,7 +1,7 @@
 import pandas as pd
 from scipy.interpolate import lagrange
 
-with open('test4_1.txt') as f:
+with open('../coursera practice/test4_1.txt') as f:
     data = f.read()
     words = data.split()
 #打开文件分割字符串
